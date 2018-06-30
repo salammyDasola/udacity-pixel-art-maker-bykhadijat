@@ -5,7 +5,7 @@
 sizePicker.submit(function(event){
     event.preventDefault();
     makeGrid();
-})
+});
 
 function makeGrid() {
     const width =$("#inputWeight").val();
@@ -16,8 +16,9 @@ function makeGrid() {
         for(let column=1;column <=width;column++){
           $('tr').filter(':last').append('<td></td>');
     }
-    }
+    } 
 // Your code goes here!
 
 };
+
 
